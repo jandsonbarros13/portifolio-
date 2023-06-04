@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./img/logo4.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Jandson Barros Engenheiro da computação</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>PORTI<span>FOLIO</span></h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+          <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="#rodape">Contatos</a></button>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img src="./img/menu_white_36dp.svg" alt="" class="icon"></button>
+      </div>
+
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#rodape">Contatos</a></button>
+      </div>
+
+    </div>
+  </header>
+  <div class="topo">
+    <div class="titulo-animado">
+      <h1 class="titulo-ola">Ola, eu sou Pedro Barros Engenheiro de computação e Desenvolvedor Full-stack</h1>
+      <button class="bt-baixar"><a a href="./Profile (1).pdf" download
+          style="color: white; text-decoration: none;">Baixe CV</a></button>
+      <button class="bt-ctt"><a href="https://api.whatsapp.com/send?phone=5585987749362"
+          style="color: white; text-decoration: none;" target="_blank">Entre em contato</a></button>
+    </div>
+    <div class="imagem">
+      <img src="./img/foto.jpg" alt="foto" class="foto">
+    </div>
+  </div>
+  <div class="hidden">
+
+    <div class="sobre" id="sobre">
+      <h1 class="titulo">Sobre mim</h1>
+      <p>Desenvolvedor Full-stack desde 2018 com experiência em React.js, Next.js, Redux, JavaScript, TypeScript, Styled
+        Components, SQL, AWS e consumo de APIs REST. </p>
+      <p>
+        Me reconheço como entusiasta em novas tecnologias do mercado, ágil,
+        focado e consistente em aprender uma nova tecnologia e alta adaptabilidade às mudanças, pronto para superar
+        qualquer desafio!
+        Se eu pudesse me definir em 3 palavras, certamente seriam: proativo, perseverante e esforçado!
+
+      </p>
+    </div>
+  </div>
+  <div class="hidden">
+    <div class="todo-hab" id="habilidades">
+      <h1 class="titulo">HABILIDADES</h1>
+      <div class="habilidades">
+        <div class="programada">
+          <p>HTML</p>
+          <img src="./img/html.svg" alt="html" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>CSS</p>
+          <img src="./img/css.svg" alt="css" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>JAVASCRIPT</p>
+          <img src="./img/javascrip.svg" alt="javascrip" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>SASS</p>
+          <img src="./img/sass.svg" alt="sass" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>STORYBOOK</p>
+          <img src="./img/storybook.svg" alt="storybook" class="linguagem">
+        </div>
+      </div>
+      <div class="habilidades">
+
+        <div class="programada">
+          <p>NEXT</p>
+          <img src="./img/nextjs.svg" alt="next" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>REACT</p>
+          <img src="./img/react.svg" alt="react" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>REDUX</p>
+          <img src="./img/redux.svg" alt="redux" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>STYLED</p>
+          <img src="./img/styledcomponents.svg" alt="styled" class="linguagem">
+        </div>
+        <div class="programada">
+          <p>TYPE</p>
+          <img src="./img/typescript.svg" alt="typescript" class="linguagem">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hidden">
+    <div class="projetos" id="projetos">
+      <h1 class="titulo-projetos">Projetos</h1>
+      <h3 class="destaques">Projetos em destaques</h3>
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/comex.jpg" alt="comex" class="img-proj"></h2>
+            <h3>Site Comex</h3>
+            <p>Site explicando a area de comercio exterior e onde seria suas atuações e principalmente com e seu
+              trabalho no dia a dia</p>
+            <div class="ling-todos">
+              <img src="./img/html.svg" alt="html" class="ling">
+              <img src="./img/css.svg" alt="css" class="ling">
+              <img src="./img/javascrip.svg" alt="js" class="ling">
+            </div>
+            <a href="https://lista-de-tarefas-d7qo.vercel.app/" target="_blank">Veja o site</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/controle-fin.jpg" alt="controle-financeiro" class="img-proj"></h2>
+            <h3>Controle financeiro</h3>
+            <p>Site demonstrando como controlar suas contas e e calcular gastos excessivos</p>
+            <div class="ling-todos">
+              <img src="./img/html.svg" alt="html" class="ling">
+              <img src="./img/css.svg" alt="css" class="ling">
+              <img src="./img/javascrip.svg" alt="js" class="ling">
+            </div>
+            <a href="https://controle-financeio.vercel.app/" target="_blank">Veja o site</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/eletronicos.jpg" alt="eletronicos" class="img-proj"></h2>
+            <h3>Site Eletronicos</h3>
+            <p>Site eletronico com filtro de produtos utilizando principalmente react e js</p>
+            <div class="ling-todos">
+              <img src="./img/react.svg" alt="react" class="ling">
+              <img src="./img/sass.svg" alt="sass" class="ling">
+              <img src="./img/javascrip.svg" alt="js" class="ling">
+            </div>
+
+            <a href="https://loja-eletronica.vercel.app/" target="_blank">Veja o site</a>
+          </div>
+        </div>
+      </div>
+      <div class="hidden">
+        <div class="outros-projetos">
+          <h1 class="todos-projetos">Todos os Projetos</h1>
+          <div class="container">
+            <div class="card">
+              <div class="content">
+                <h2><img src="./img/lista-tarefas.jpg" alt="comex" class="img-proj"></h2>
+                <h3>Lista de tarefas</h3>
+                <p>Site utilizando javascript com armazenamento de tarefas excluir e salvar lista.</p>
+                <div class="ling-todos">
+                  <img src="./img/html.svg" alt="html" class="ling">
+                  <img src="./img/css.svg" alt="css" class="ling">
+                  <img src="./img/javascrip.svg" alt="js" class="ling">
+                </div>
+                <a href="https://lista-de-tarefas-nine-puce.vercel.app/" target="_blank">Veja o site</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2><img src="./img/tabela-nut.jpg" alt="controle-financeiro" class="img-proj"></h2>
+                <h3>Tabela nutrição</h3>
+                <p>Sistema que recebe o peso e altura e calcula o imc do paciente</p>
+                <div class="ling-todos">
+                  <img src="./img/html.svg" alt="html" class="ling">
+                  <img src="./img/css.svg" alt="css" class="ling">
+                  <img src="./img/javascrip.svg" alt="js" class="ling">
+                </div>
+                <a href="https://tabela-nutricao.vercel.app/" target="_blank">Veja o site</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2><img src="./img/calculadora.jpg" alt="eletronicos" class="img-proj"></h2>
+                <h3>Calculadora React</h3>
+                <p>Calculadora simples utilizando todas as operações fundamentais</p>
+                <div class="ling-todos">
+                  <img src="./img/react.svg" alt="react" class="ling">
+                  <img src="./img/sass.svg" alt="sass" class="ling">
+                  <img src="./img/javascrip.svg" alt="js" class="ling">
+                </div>
+
+                <a href="https://calculadora-react1.vercel.app/" target="_blank">Veja o site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="projetos-escondidos" id="projetos-escondidos">
+    <div class="outros-projetos">
+      <h1 class="todos-projetos">Outros Projetos</h1>
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/cep.jpg" alt="comex" class="img-proj"></h2>
+            <h3>Lista de tarefas</h3>
+            <p>Site buscando cep de cidades de São paulo e região usando principalmente axios.</p>
+            <div class="ling-todos">
+              <img src="./img/html.svg" alt="html" class="ling">
+              <img src="./img/css.svg" alt="css" class="ling">
+              <img src="./img/javascrip.svg" alt="js" class="ling">
+            </div>
+            <a href="https://busca-cep-alpha.vercel.app/" target="_blank">Veja o site</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/barbearia.jpg" alt="controle-financeiro" class="img-proj"></h2>
+            <h3>Site Barbearia</h3>
+            <p>Site barbearia apenas com html e css usando divs e flexbox</p>
+            <div class="ling-todos">
+              <img src="./img/html.svg" alt="html" class="ling">
+              <img src="./img/css.svg" alt="css" class="ling">
+            </div>
+            <a href="https://site-barbearia-two.vercel.app" target="_blank">Veja o site</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2><img src="./img/cadastro.jpg" alt="eletronicos" class="img-proj"></h2>
+            <h3>Cadastro Projeto</h3>
+            <p>Cadastros Projetos com react e sass utilizando as fotos do github</p>
+            <div class="ling-todos">
+              <img src="./img/react.svg" alt="react" class="ling">
+              <img src="./img/sass.svg" alt="sass" class="ling">
+              <img src="./img/javascrip.svg" alt="js" class="ling">
+            </div>
+
+            <a href="https://projeto-cadastro.vercel.app/" target="_blank">Veja o site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <button class="ver-mais" id="show-hide">Ver mais</button>
+
+  <div class="hidden">
+    <footer id="rodape">
+      <div class="contatos">
+        <div class="ctt-completo">
+          <div class="ctt">
+            <a href="https://www.linkedin.com/in/pedro-jandson-barros-muniz-1a4a691a6/" target="_blank"><img
+                src="./img/linkedin.svg" alt="linkedin" class="logo-ctt"></a>
+          </div>
+          <h1 class="titulo-ctt">Linkedin</h1>
+          <p>@jandsonbarros1</p>
+
+        </div>
+        <div class="ctt-completo">
+
+          <div class="ctt">
+            <a href="https://github.com/jandsonbarros13" target="_blank">
+              <img src="./img/github.svg" alt="githb" class="logo-ctt"></a>
+          </div>
+          <h1 class="titulo-ctt">Github</h1>
+          <p>@jandsonbarros13</p>
+
+        </div>
+        <div class="ctt-completo">
+          <div class="ctt">
+            <a href="tel:+5585987749362" target="_blank">
+              <img src="./img/telefone.svg" alt="telefone" class="logo-ctt"></a>
+          </div>
+          <h1 class="titulo-ctt">Telefone</h1>
+          <p>+5585987749362</p>
+        </div>
+        <div class="ctt-completo">
+
+          <div class="ctt">
+            <a href="mailto:jandsonbarros87@gmail.com" target="_blank">
+              <img src="./img/email.svg" alt="email" class="logo-ctt"></a>
+          </div>
+          <h1 class="titulo-ctt">Email</h1>
+          <p>jandsonbarros87@gmail.com</p>
+        </div>
+      </div>
+  </div>
+  </footer>
+  <script src="./vanilla-tilt.js"></script>
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"));
+  </script>
+</body>
+
+</html>
